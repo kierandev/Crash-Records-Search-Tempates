@@ -1,0 +1,17 @@
+@import "compass";
+
+/*Master*/
+@import 'mixins';
+@import 'variables';
+@import 'color';
+@import 'screen';
+@import 'fonts';
+
+/*Templates*/
+@import 'landing';
+@import 'albumPage';
+
+/*Global elements*/
+@import 'navigation';
+@import 'footer';
+

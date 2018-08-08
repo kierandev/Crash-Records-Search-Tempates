@@ -1,0 +1,38 @@
+html{
+	body{
+		nav.navigation{
+			position: absolute;
+			width: 100%;
+			background-color: black;
+
+			div.container-fluid{
+
+				div.row{
+					padding: 10px  15px;
+
+					div.back{
+						width: 50%;
+
+						svg{
+							color: $yellow;
+					    	font-size: 30px;
+
+						}
+						
+					}
+
+					div.logo{
+						width: 50%;
+						max-height: 28px;
+						float: left;
+
+						svg{
+							max-width: 130px;
+
+						}
+					}
+				}
+			}
+		}
+	}
+}
